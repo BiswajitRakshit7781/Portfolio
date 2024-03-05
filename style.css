@@ -272,9 +272,7 @@ margin: 4%;
 
 footer {
     color: aqua;
-    width: 100vw;
     font-size: 12px;
-    position: fixed;
     bottom: 0;
     padding-top: 10px;
 }
