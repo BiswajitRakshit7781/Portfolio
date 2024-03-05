@@ -5,8 +5,8 @@
     font-family: "Roboto", sans-serif;
 }
 body{
-    /* background-color: black;
-    color:white; */
+    background-color: black;
+    color:white;
 }
 
 .left{
@@ -16,6 +16,7 @@ body{
 }
 .right{
     width:75vw;
+    margin: 16px 0;
 }
 
 .home ul li{
@@ -39,4 +40,28 @@ body{
 }
 .heading img{
     width: 30px;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.footer{
+    display: flex;
+    font-size: 10px;
+    gap :13px;
+    position: absolute;
+    bottom: 0;
+}
+.footer a{
+    color: grey;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+
+}
+.header > *{
+    padding: 20px;;
 }
